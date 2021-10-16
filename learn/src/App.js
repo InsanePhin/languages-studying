@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 
+const element1 = <div>This is JSX</div>;
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello, InsanePhin!
+          
+          {element1}
         </p>
         <a
           className="App-link"
