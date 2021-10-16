@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 const element1 = <div>This is JSX</div>;
+function element2(args) {
+    return args+" is args";
+}
 
 function App() {
   return (
@@ -10,8 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello, InsanePhin!
-          
           {element1}
+          {element2("This")}
         </p>
         <a
           className="App-link"
