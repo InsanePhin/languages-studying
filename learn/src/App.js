@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './components/Clock';
 
 const element1 = <div>This is JSX</div>;
 function element2(args) {
@@ -24,6 +25,7 @@ function App() {
           {element1}
           {element2("This")}
           <Component name={"Phin"}/>
+          <Clock />
         </p>
         <a
           className="App-link"
