@@ -10,7 +10,7 @@ function element2(args) {
 function Component(props) {
     return (
         <div>
-            This is props.name => {props.name}
+            This is props.name = {props.name}
         </div>
     )
 }
