@@ -12,7 +12,7 @@ function tick() {
 }
 
 ReactDOM.render(
-    element,
+    tick.element,
     document.getElementById('time')
 );
 
