@@ -2,21 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function hello() {
-    const element = (
+    const hello = (
         <div>
             <h1>Hello, World!</h1>
         </div>
     );
-    ReactDOM.render(element, document.getElementById('hello'));
+    ReactDOM.render(hello, document.getElementById('hello'));
 }
 
 function tick() {
-  const element = (
+  const time = (
     <div>
       <h2>It is {new Date().toLocaleTimeString()}.</h2>
     </div>
   );
-  ReactDOM.render(element, document.getElementById('time'));
+  ReactDOM.render(time, document.getElementById('time'));
 }
 
 setInterval(tick, 1000);
