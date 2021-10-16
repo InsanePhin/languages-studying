@@ -6,6 +6,14 @@ function element2(args) {
     return args+" is args";
 }
 
+function Component(props) {
+    return (
+        <div>
+            This is props.name => {props.name}
+        </div>
+    )
+}
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +23,7 @@ function App() {
           Hello, InsanePhin!
           {element1}
           {element2("This")}
+          <Component name={"Phin"}/>
         </p>
         <a
           className="App-link"
