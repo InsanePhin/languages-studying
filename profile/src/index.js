@@ -8,13 +8,12 @@ function tick() {
         <div> <h1>Hello, world!</h1> 
         <h2>It is {new Date().toLocaleTimeString()}.</h2> 
         </div> 
-);
-}
-
-ReactDOM.render(
-    tick.element,
-    document.getElementById('time')
-);
+    );
+    ReactDOM.render(
+        tick.element,
+        document.getElementById('time')
+    );
+}   
 
 reportWebVitals(console.log);
 setInterval(tick, 1000);
