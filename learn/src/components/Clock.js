@@ -34,10 +34,9 @@ class Clock extends Component {
     render() { 
         return ( 
             <div> 
-            <h2> 현재 시간은 ?? </h2> 
+            <h2> 현재 시간은 </h2> 
             <div>{ 
-                this.state.date.toLocaleTimeString() 
-                
+                this.state.date.toLocaleTimeString()
             }</div> 
             </div> 
         ); 
